@@ -76,19 +76,6 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 ```
 ## OUTPUT
 <img width="534" height="182" alt="image" src="https://github.com/user-attachments/assets/74af1d8f-3f5e-48b1-95f2-aecede31bfd2" />
-## C Program that illustrate communication between two process using named pipes using Linux API system calls
-```#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-int main(){
-int res = mkfifo("/tmp/my_fifo", 0777);
-if (res == 0) printf("FIFO created\n");
-exit(EXIT_SUCCESS);
-}
-```
-## OUTPUT
-<img width="357" height="171" alt="image" src="https://github.com/user-attachments/assets/d26c47a2-41e4-4617-b75b-b4118e901de9" />
+
 # RESULT:
 The program is executed successfully.
